@@ -8,8 +8,8 @@ function get_numberofrows(){
 
 
 
-let numb_rows= readline.question("")
-let numb_columns = readline.question("")
+let numb_rows= readline.question("INSERT ROW NUMBER: ")
+let numb_columns = readline.question("INSERT COLUMN NUMBER: ")
 
 let columns='ABCDEFGHIJKLMNOPQRSTUVWXYZ'
 let split = columns.split("")
